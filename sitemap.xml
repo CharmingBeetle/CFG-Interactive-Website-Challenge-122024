@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.adventurequestltd.co.uk</loc>
+		<priority>1.00</priority>
+		<lastmod>2024-12-09</lastmod>
+	</url>
+	<url>
+		<loc>https://www.adventurequestltd.co.uk/payment.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-12-08</lastmod>
+	</url>
+	<url>
+		<loc>https://www.adventurequestltd.co.uk/contact.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-12-07</lastmod>
+	</url>
+	<url>
+		<loc>https://www.adventurequestltd.co.uk/confirm.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-12-09</lastmod>
+	</url>
+	<url>
+		<loc>https://www.adventurequestltd.co.uk/about.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-12-07</lastmod>
+	</url>
+</urlset>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>  
+    <!-- Menu -->
+    <nav>
+       <input type="checkbox" id="check">
+       <label for="check" class = "checkbtn">
+       <img id = "menu" src="/images/menu-bar.png" alt="menu bars"><p id="hdrtitle">Adventure Quest Ltd</p></label>
+       <div class="nav-site w3-animate-right">
+           <a href="index.html">Home</a>
+           <a href="/about.html">About</a>
+           <a href="/contact.html">Contact</a>
+       </div>
+   </nav>
+</header>
+<body>
+    <h1>Book Tickets</h1>
+
+
+        <h3>You can either pay online or on the day by cash or card!</h3>
+        <h3>Tickets are £4 per person. (Max: 10 tickets per group)</h3><br>
+      
+<form action="" method="post">
+        <p>How do you wish to pay? </p>
+        <label for="online">Online</label>
+        <input type="radio" name="payType" id="online"><br>
+        <label for="ontheday">On the day</label>
+        <input type="radio" name="payType" id="ontheday"> 
+
+
+        <!-- User Info -->
+        <div class = "user info">
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname"><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname"><br>
+
+            <label for="address">Address</label><br>
+            <input type="text" name="address1" id="address1" placeholder="First line of your address"><br>
+            <input type="text" name="address2" id="address2" placeholder="Second line of your address">
+            <input type="text" name="city" id="city" placeholder="City">
+            <input type="text" name="postcode" id="postcode" placeholder="Post Code"><br>
+            <label for="phonenum">Phone Number</label><br>
+            <input type="tel" name="mobile number" id="telnum" placeholder=""><br>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" id="email" placeholder="123@abc.com"><br>
+            <label for="partyNum">How many people in your party?</label>
+            <input type="number" name="number" id="grpSize" maxlength="10"><br>
+
+            <label>Paying on the day? </label>
+            <input type="button" class = "submit" id = "submitinperson"  onclick="submitUserInfo()" value="Click Here">
+        </div>
+      
+            <div class="tickets">
+                <!-- Tickets -->
+                <label for="tckt#">How many tickets would you like to buy?</label><br>
+                <input type="number" name="tckt#" id="tcktnum" min="0" max="10" oninput="total()"><br><br>
+
+                <!-- Payment info -->
+                <label for="ccn">Card Number</label><br>
+                <input class = "cardinfo" id="ccn" type="text" inputmode="numeric" maxlength="19" 
+                placeholder="xxxx xxxx xxxx xxxx"><br>
+                <label for="expdate">Expiry Date</label><br>
+                <input class = "cardinfo" type="text" name="expdate" id="expdate" inputmode="numeric" maxlength="5" placeholder="00/00"><br>
+                <label for="sc">Security Code</label><br>
+                <input class = "cardinfo" type="text" id="sc" inputmode="numeric" maxlength="3">
+            </div>
+                    <!-- Total Cost -->
+                    <div class="total">
+                        <h2 id="">Your total comes to:</h2>
+                        <h1 id="total">£ </h1>
+                    </div>
+
+                <!-- Submit Payment -->
+                <button type="submit" class = "submit" id="submitcc">Pay Now</button>
+            </div>
+</form>
+<footer>
+<p>Nina's Custom Websites 2024 ©</p>
+</footer>
+<script src="/script.js"></script>   
+</body>
+</html>
