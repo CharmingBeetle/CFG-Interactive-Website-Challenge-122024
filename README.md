@@ -3,7 +3,7 @@
 ## Overview
 This project was created as part of the Code First Girls Interactive Website Challenge in December 2024. It's a responsive website that showcases web development skills using HTML, CSS, and JavaScript.
 
-##Visit the site
+## Visit the site
 https://citytreasurehunt.netlify.app/
 
 ## Features
