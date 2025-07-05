@@ -1,7 +1,10 @@
 # CFG Interactive Website Challenge
 
 ## Overview
-This project was created as part of the Code First Girls Interactive Website Challenge. It's a responsive website that showcases web development skills using HTML, CSS, and JavaScript.
+This project was created as part of the Code First Girls Interactive Website Challenge in December 2024. It's a responsive website that showcases web development skills using HTML, CSS, and JavaScript.
+
+##Visit the site
+https://citytreasurehunt.netlify.app/
 
 ## Features
 - Responsive design that works across desktop and mobile devices
