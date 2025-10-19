@@ -51,7 +51,12 @@ h3 {
     background: rgba(0, 139, 186, 0.5);
     padding: 0.5rem 1rem;
     border-radius: 15px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 h4 {
